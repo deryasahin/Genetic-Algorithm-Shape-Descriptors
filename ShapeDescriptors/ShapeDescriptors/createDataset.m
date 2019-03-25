@@ -2,7 +2,7 @@
 
 clearvars; clc;
 
-image_folder='C:\Users\okancansaglam\Desktop\ShapeDescriptors\images';
+image_folder='C:\Users\derya\Desktop\ShapeDescriptors\images';
 file_names = dir(fullfile(image_folder,'*.jpg'));
 total_images = numel(file_names);
 label =0;
